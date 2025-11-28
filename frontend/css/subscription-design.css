@@ -1,0 +1,87 @@
+	.page-heading{
+	    margin-bottom: 70px;
+	    border-bottom: 1px solid #ddd;
+	    padding-bottom: 10px;
+	}
+	.page-sub-heading{
+		text-align: center;
+	    font-weight: bold;
+	    border: 2px solid #ddd;
+	    background: #2C3069;
+	    padding: 15px 0;
+	    margin-bottom: 20px;
+	    color: #fff;
+	}
+
+
+	.single_plan{
+		margin-bottom: 25px;
+		-webkit-perspective: 1000px;
+		perspective: 1000px;
+		-webkit-transform-style: preserve-3d;
+		transform-style: preserve-3d;
+	}
+	.single_plan .card{
+		background-color: #fff;
+		border-radius: 10px;
+		overflow: hidden;
+		position: relative;
+		transition: all .3s ease-in;
+		-webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+		/* box-shadow: 0 0 10px 5px rgba(150, 144, 144, 0.5); */
+		
+    box-shadow: 0 20px 20px rgba(50,50,50,.2);
+	}
+
+	.single_plan .card .price-header{
+		padding: 20px 20px 40px;
+		background-color: #2A306C;
+		transition: all .3s ease-in;
+		clip-path: polygon(0 0, 100% 0%, 100% 65%, 0 100%);
+	}
+	.single_plan .card .price-header h3{
+		text-align: center;
+		color: #fff;
+		margin-bottom: 0;
+	}
+	.price-value{
+		font-size: 30px;
+		margin: 0 auto 30px;
+	}
+	.price-value strong{
+		display: block;
+	}
+	.single_plan .card .price-content{
+		text-align: center;
+		padding: 30px;
+	}
+	.single_plan .card .price-content ul{
+		margin: 0 auto 20px;
+	}
+	.single_plan .card .price-content ul li{
+		font-weight: bold;
+		padding: 5px 0;
+	}
+	.single_plan:hover .card{
+		-webkit-transform: rotateX(20deg);
+		transform: rotateX(20deg);
+	}
+
+   	
+   	@media only screen and (max-width: 767px) {
+      .single_plan .card form,
+      .single_plan .card p{
+    	    right: 25%;
+      }
+      
+    }
+    
+    @media only screen and (max-width: 470px) {
+      .single_plan .card form,
+      .single_plan .card p{
+    	    right: 20%;
+      }
+      
+    }
+   	

@@ -1,0 +1,24 @@
+[24-Nov-2024 17:13:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/eqlin340/preparemedicine.com/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/eqlin340/preparemedicine.com/config/database.php on line 18
+[01-Aug-2025 08:41:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/khair425/preparemedicine.co.uk/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/khair425/preparemedicine.co.uk/config/database.php on line 18
+[01-Aug-2025 08:41:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/khair425/preparemedicine.co.uk/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/khair425/preparemedicine.co.uk/config/database.php on line 18
+[01-Aug-2025 23:36:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/khair425/preparemedicine.co.uk/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/khair425/preparemedicine.co.uk/config/database.php on line 18
+[05-Aug-2025 05:44:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/khair425/preparemedicine.co.uk/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/khair425/preparemedicine.co.uk/config/database.php on line 18
+[05-Aug-2025 05:44:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/khair425/preparemedicine.co.uk/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/khair425/preparemedicine.co.uk/config/database.php on line 18
