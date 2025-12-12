@@ -33,7 +33,7 @@ class AuthController extends Controller
         if ($validator->fails()) {
             return $this->validationErrorResponse($validator->errors());
         }
-dd($request->all());
+
         $user = User::create([
             'f_name' => $request->f_name,
             's_name' => $request->s_name,
